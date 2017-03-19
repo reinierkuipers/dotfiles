@@ -101,5 +101,10 @@ brew install vbindiff
 brew install webkit2png
 brew install zopfli
 
+# Install Cask and software
+
+brew install caskroom/cask/brew-cask
+brew cask install google-chrome google-drive tower bartender 1password sublime-text skype transmission alfred little-snitch cloak
+
 # Remove outdated versions from the cellar.
 brew cleanup
